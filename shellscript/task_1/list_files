@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# List files with .json and .yaml extensions
+echo "List of .json files in this folder:"
+ls *.json
+
+echo "List of .yaml files in this folder:"
+ls *.yaml

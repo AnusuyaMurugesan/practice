@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Rename .yaml files to .yml
+for file in *.*
+do
+    if [ "${file##*.}" = "yaml" ] 
+    then
+        mv "$file" "${file%.yaml}-renamed.yml"
+        echo "Renamed $file to ${file%.yaml}-renamed.yml"
+    elif [ "${file##*.}" = "yml" ]
+    then
+        echo "${file} is already in .yml format. Skipping."
+    else
+    	echo "Dont change the extension os ${file} . Skipping."
+    fi
+done

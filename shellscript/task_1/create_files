@@ -1,0 +1,21 @@
+#!/bin/bash
+
+
+# Create files with different extensions
+
+EXTENSIONS=("txt" "json" "yml" "yaml")
+
+DATE=$(date)
+
+for number in {1..5}
+do
+ for extensions in ${EXTENSIONS[@]}
+	do
+    	FILE_NAME=file-${number}.${extensions}
+    	touch $FILE_NAME
+    	echo "File created successfully on $DATE" > $FILE_NAME
+   	done
+done
+
+# Add "success" to 4 files
+

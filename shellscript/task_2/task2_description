@@ -1,0 +1,7 @@
+1. Read all the users from /passwd file
+
+2. Create users.json and add the username, shell, home
+If the details are not present, add "Notdefined" as value
+Sample users.json
+{  "username": "vignesh",  "shell": "/bin/bash",  "home": "/home/vignesh"},
+{  "username": "ghost",  "shell": "/bin/zsh",  "home": "NotDefined"}

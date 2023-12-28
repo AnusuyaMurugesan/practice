@@ -1,0 +1,14 @@
+1. Create some files with extensions .txt .json .yaml .yml
+
+Creates minimum 10 files
+Add some content inside the files
+Make sure to add success word inside some 4 files
+
+2. List all the files if matches this extensions .json and .yaml
+
+3. If it's a .yaml file rename to yml, if it's already in .yml ignore
+
+4. search all the files for word inside the file  "success" 
+If word success is found inside file, create success folder and move it inside the folder
+
+Other files move to archive folder
