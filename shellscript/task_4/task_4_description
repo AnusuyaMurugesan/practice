@@ -1,0 +1,19 @@
+Task 4
+1. Script to install nginx or httpd
+
+2. When the user run the script, it should print options to select which software to installation
+
+Eg.
+1. httpd
+2. nginx
+
+User select 1 or 2
+
+Then script should continue, check whether package is already installed if not install.
+
+Note: The same script should work in Ubuntu as well as CentOS
+
+For you reference, the in Ubuntu the package name is httpd, in CentOS it's apache2.
+Add condition to check which operating system it is and select httpd or apache2. Checking of which operating system should be checked within script 
+
+Use functions whenever possible

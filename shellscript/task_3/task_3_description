@@ -1,0 +1,13 @@
+curl https://api.guthub.com/users/vigneshsweekaran/repos
+
+
+It will return big json file, with all my GitHub repository details
+
+1. Find no of repositories (exclude forked repositories)
+Note: Forked repositories has key value pair. fork: true
+
+2. Count no of repositories has defualt_branch: master
+
+Excluding forked 
+
+3. Count no of repositories created in this year and last year
